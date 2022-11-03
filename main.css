@@ -55,11 +55,11 @@ body a.btn-success{
 .header__content ul a {
     text-decoration: none;
     color: #003865;
-    font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
    margin: 15px;
     transition: all 0.5s;
+    font-size: 30px;
 }
 .header__content .header__content__right{
     display: flex;
@@ -70,7 +70,7 @@ body a.btn-success{
     padding: 6px 20px;
     border-color: #0BE926;
     letter-spacing: 2px;
-
+    margin-right: 20px;
 }
 .header__content .header__content__right button.btn-success:hover{
         border-color: #fff;
@@ -83,6 +83,7 @@ body a.btn-success{
     height: 50px;
     background: #fff;
     border-radius: 50%;
+    margin-left: 20px;
 }
 .header__content .header__content__right .dropdown-toggle::after{
     display: none;
@@ -93,13 +94,15 @@ body a.btn-success{
 }
 .header__content .header__content__left h1 {
     color:#573cb9;
-    font-size: 60px;
+    font-size: 80px;
     margin-right: 50px;
-    font-weight: 1000;
+    font-weight: bold;
+    font-style: italic;
     
 }
 .header__content ul .active a {
     color: #ff0e83;
+    /* font-size: 50px; */
 }
 /* Carousel */
 
@@ -278,8 +281,11 @@ video {
     margin-top: 50px;
     letter-spacing: 5px;
  }
+ .communities__content .communities__content__text h1{
+    width: 95%;
+ }
  .blog__content .blog__content__text p,.communities__content .communities__content__text p{
-    width: 75%;
+    width: 80%;
     margin: 0 auto ;
     font-size: 20px;
     line-height: 40px;
